@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/asecroph/dashboard.asecap.co/
-    - /bin/rsync -av public/ $DEPLOYPATH
+    - cp -R public $DEPLOYPATH
