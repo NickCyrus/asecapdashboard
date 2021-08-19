@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/asecroph/dashboard.asecap.co/
-    - /bin/cp /home/asecroph/repositories/asecapdashboard/index.php $DEPLOYPATH
+    - /bin/cp public/index.php $DEPLOYPATH
